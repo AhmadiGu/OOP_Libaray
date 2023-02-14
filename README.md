@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Enumerable] <a name="about-project"></a>
+# 📖 [OOP_School_Library] <a name="about-project"></a>
 
 >This repo is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby.
   
@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 ```
   cd "to where you want to install your project"
 
- https://github.com/AhmadiGu/OOP_Libaray
+ https://github.com/AhmadiGu/OOP_School_Libaray
 ```
 
 ### Install
