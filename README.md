@@ -52,8 +52,8 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features" /> 
-**[useing module]**
-**[useing all? any? filter?]**
+**[ using assciation]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started" />
