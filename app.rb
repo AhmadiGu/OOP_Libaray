@@ -97,7 +97,6 @@ class App
       print '\nEnter book number: '
       book_id = gets.chomp.to_i
 
-
       puts 'Select a person from the following list by number (not id)'
       show_people
       print '\nEnter person number: '
