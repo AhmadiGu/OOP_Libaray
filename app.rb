@@ -39,12 +39,46 @@ class App
   def show_rental
     puts 'Select person'
     show_people
-    print 'Enter selected person ID: '
+    print 'Enter selected person ID (not number): '
     id = gets.chomp.to_i
     puts 'Rentals:'
     @rental.each do |rent|
-      puts " Date: #{rent.date} Book: #{rent.book.title} Author: #{rent.book.author}" if rent.person.id == id
+      if rent.person.id == id
+        puts " Date: #{rent.date} Book: #{rent.book.title} Author: #{rent.book.author}"
+      else 
+        puts "You type the ID incorrect OR No rentals exists for this person check the ID "
+      end
     end
+  end
+  
+  def create_student
+    print 'Age:'
+    age = gets.chomp
+    print 'Name:'
+    name = gets.chomp
+    print 'Parent permisssion [y/n]:'
+    permission = gets.chomp
+
+    case permission
+    when 'y' then parent_permission = true
+    when 'n' then parent_permission = false
+    end
+    
+    print 'Enter classroom: '
+    classroom = gets.chomp
+    student = Student.new(classroom, age, name, parent_permission: parent_permission)
+    @people.push(student) 
+  end
+
+  def create_teacher
+    print 'Age:'
+    age = gets.chomp
+    print 'Name:'
+    name = gets.chomp
+    print 'Specialization:'
+    specialization = gets.chomp
+    teacher = Teacher.new(specialization, age, name, parent_permission: true)
+    @people.push(teacher)
   end
 
   def create_person
@@ -52,27 +86,11 @@ class App
     num = gets.chomp
     case num
     when '1'
-      print 'Age:'
-      age = gets.chomp
-      print 'Name:'
-      name = gets.chomp
-      print 'Parent permisssion [y/n]:'
-      permission = gets.chomp
-      print 'Enter classroom: '
-      classroom = gets.chomp
-      student = Student.new(classroom, age, name, parent_permission: permission)
-      @people.push(student)
+      create_student
       puts 'Person created successfully!'
 
     when '2'
-      print 'Age:'
-      age = gets.chomp
-      print 'Name:'
-      name = gets.chomp
-      print 'Specialization:'
-      specialization = gets.chomp
-      teacher = Teacher.new(specialization, age, name, parent_permission: true)
-      @people.push(teacher)
+      create_teacher
       puts 'Person created successfully!'
 
     else
@@ -91,20 +109,22 @@ class App
   end
 
   def create_rental
-    if @books.empty?
-      puts 'Book list is empty please create a book first'
+    if @books.empty? 
+      puts 'Book list is empty please create a book first' 
+    elsif @people.empty?
+      puts 'Books are exist so please create a person first Person list is empty.'
     else
       puts 'Select a book from the following list by number'
       books_list
-      print '\nEnter book number: '
+      print 'Enter book number: '
       book_id = gets.chomp.to_i
 
       puts 'Select a person from the following list by number (not id)'
       show_people
-      print '\nEnter person number: '
+      print 'Enter person number: '
       person_id = gets.chomp.to_i
 
-      print '\nDate: '
+      print 'Date: '
       date = gets.chomp
 
       rent = Rental.new(date, @people[person_id], @books[book_id])

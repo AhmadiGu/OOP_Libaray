@@ -95,6 +95,11 @@ Install this project with:
 - GitHub: [GitHub Profile](https://github.com/AhmadiGu)
 - LinkedIn: [LinkedIn Profile](https://ahmadigu.github.io/Desktop_Portfolio/)
 
+👤 **Falis Abdikani**
+
+- GitHub: [GitHub Profile](https://github.com/Ibtisam34)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
  
