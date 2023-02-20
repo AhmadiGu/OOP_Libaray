@@ -1,6 +1,6 @@
 # OOP_Libaray
+
 <a name="readme-top"></a>
- 
 
 <div align="center"> 
   <img src="murple_logo.png" alt="logo" width="40"  height="auto" />
@@ -18,7 +18,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -29,11 +28,9 @@
 
 # 📖 [OOP_School_Library] <a name="about-project"></a>
 
->This repo is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby.
-  
+> This repo is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
- 
 
 <details>
   <summary>Server</summary>
@@ -51,7 +48,8 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features" /> 
+### Key Features <a name="key-features" />
+
 **[ using assciation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,9 +84,7 @@ Install this project with:
   gem install
 ```
 
- 
-
-## 👥 Authors <a name="authors" /> 
+## 👥 Authors <a name="authors" />
 
 👤 **Gulalai Ahmadi**
 
@@ -98,20 +94,17 @@ Install this project with:
 👤 **Falis Abdikani**
 
 - GitHub: [GitHub Profile](https://github.com/Ibtisam34)
-
+- Twitter: [@twitterhandle](https://twitter.com/Queenjin2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/falis-abdikani/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
- 
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing" />
 
 Contributions, issues, and feature requests are welcome!
- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
