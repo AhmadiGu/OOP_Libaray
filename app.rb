@@ -45,12 +45,12 @@ class App
     @rental.each do |rent|
       if rent.person.id == id
         puts " Date: #{rent.date} Book: #{rent.book.title} Author: #{rent.book.author}"
-      else 
-        puts "You type the ID incorrect OR No rentals exists for this person check the ID "
+      else
+        puts 'You type the ID incorrect OR No rentals exists for this person check the ID '
       end
     end
   end
-  
+
   def create_student
     print 'Age:'
     age = gets.chomp
@@ -63,11 +63,11 @@ class App
     when 'y' then parent_permission = true
     when 'n' then parent_permission = false
     end
-    
+
     print 'Enter classroom: '
     classroom = gets.chomp
     student = Student.new(classroom, age, name, parent_permission: parent_permission)
-    @people.push(student) 
+    @people.push(student)
   end
 
   def create_teacher
@@ -109,8 +109,8 @@ class App
   end
 
   def create_rental
-    if @books.empty? 
-      puts 'Book list is empty please create a book first' 
+    if @books.empty?
+      puts 'Book list is empty please create a book first'
     elsif @people.empty?
       puts 'Books are exist so please create a person first Person list is empty.'
     else
