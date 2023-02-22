@@ -15,8 +15,7 @@ describe Person do
     end
 
     it 'The correct_name method should return person name' do
-        expect(parent.correct_name).to eq 'Ahmad'
+      expect(parent.correct_name).to eq 'Ahmad'
     end
-
   end
 end

@@ -13,7 +13,7 @@ describe Rental do
     end
 
     it 'the book should have the added rental' do
-        expect(book.rentals[0]).to eq rental
+      expect(book.rentals[0]).to eq rental
     end
   end
 end

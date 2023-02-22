@@ -1,5 +1,5 @@
 require './student'
-require './classroom' 
+require './classroom'
 
 math = ClassRoom.new('Math')
 student = Student.new(24, 'Gulalai', true)
@@ -11,8 +11,8 @@ describe Student do
     end
 
     it 'the add_classroom should add the class to students ' do
-        student.add_classroom(math)
-        expect(student.classroom).to eq math
+      student.add_classroom(math)
+      expect(student.classroom).to eq math
     end
   end
 end
