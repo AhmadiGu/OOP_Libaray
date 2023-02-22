@@ -84,6 +84,17 @@ Install this project with:
   gem install
 ```
 
+```
+ Run the project:
+ ruby file.rb
+```
+
+```
+ Run Tests in cmd:
+ cd to the folder then
+ rspec spec spec/file_spec.rb
+```
+
 ## 👥 Authors <a name="authors" />
 
 👤 **Gulalai Ahmadi**
@@ -105,6 +116,14 @@ Install this project with:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+ 
+
+- [ ] **[Add some additional functionalities in preserve data ]**
+- [ ] **[Write and Read data from more complicated file ]**
+
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
