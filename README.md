@@ -97,6 +97,12 @@ Install this project with:
 - Twitter: [@twitterhandle](https://twitter.com/Queenjin2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/falis-abdikani/)
 
+👤 **mukumbata**
+
+- GitHub: [GitHub Profile](https://github.com/Mukumbuta)
+- Twitter: [@twitterhandle](https://twitter.com/Mukumbuta8)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mukumbuta)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
 
