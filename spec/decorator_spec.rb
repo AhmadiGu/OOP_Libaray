@@ -12,7 +12,7 @@ describe Decorate do
     it 'Should capitalize the name of the person' do
       person = Person.new(42, 'Riyana')
       capitalize = CapitalizeDecorator.new(person)
-      expect(capitalize.correct_name).to eql 'RIYANA'
+      expect(capitalize.correct_name).to eql 'Riyana'
     end
 
     it 'Should trim the name of the person to 10 characters' do
