@@ -2,7 +2,7 @@ require_relative '../base_decorate'
 require_relative '../person'
 require_relative '../capitalize_decorator'
 require_relative '../trimmer_decorator'
-describe  Decorate do
+describe Decorate do
   context 'Testing the decorator class' do
     it 'Should return the name of the person' do
       person = Person.new(42, 'Riyana')
