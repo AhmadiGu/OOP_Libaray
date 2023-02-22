@@ -1,5 +1,5 @@
 require './teacher'
-
+require './student'
 teacher = Teacher.new(24, 'Mohammad', true)
 
 describe Student do
